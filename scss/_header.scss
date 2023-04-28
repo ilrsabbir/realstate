@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+header .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+header .header .logo img{
+    height: 50px;
+}
+header .header nav{
+    display: flex;
+    align-items: center;
+}
+header .header nav .menu-bar-icon{
+    display: none;
+}
+header .header nav menu ul{
+    list-style: none;
+}
+header .header nav menu ul li{
+    display: inline;
+    padding: 10px 20px;
+}
+header .header nav menu ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: $text;
+    text-transform: capitalize;
+    font-family: $ff;
+    transition: .2s all ease-in-out;
+}
+header .header nav menu ul li a.active{
+    font-weight: 700;
+    font-size: 1.09rem;
+}
+header .header nav menu ul li a:hover{
+    font-weight: 700;
+    font-size: 1.09rem;
+}
+
